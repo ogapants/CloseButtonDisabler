@@ -1,0 +1,16 @@
+{
+  "name": "close-disabler",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Disable the close button on GitHub issues",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/issues/*"],
+      "js": ["script.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
