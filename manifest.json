@@ -1,7 +1,7 @@
 {
   "name": "close-disabler",
   "version": "0.0.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Disable the close button on GitHub issues",
   "icons": {
     "128": "icon.png"
